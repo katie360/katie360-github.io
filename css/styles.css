@@ -32,9 +32,11 @@
     padding: 0;
     box-sizing: border-box;
   }
-  li{
-    list-style: none;
-  }
+ /* Only remove bullets for nav lists */
+nav li {
+  list-style: none;
+}
+
   nav{
     text-transform: uppercase;
   }
