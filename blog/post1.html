@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started with Modern JavaScript | My Blog</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="/index.html" class="logo"><img src="/images/LOGO.png" alt="" width="200px" height="20px"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#blog">Blog</a></li>
+                    <li><a href="../portfolio.html">Portfolio</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Post -->
+    <main class="container">
+        <article class="blog-post">
+            <div class="blog-post-header">
+                <h1 class="blog-post-title" id="post-title"></h1>
+                <div class="blog-post-meta">
+                    <span id="post-date"></span>
+                    <span id="post-author"></span>
+                    <span id="read-time"></span>
+                </div>
+                <div class="blog-post-tags" id="post-tags"></div>
+            </div>
+            <div class="blog-post-content" id="post-content">
+                
+                <div class="loading">Loading post...</div>
+    <zero-md src="/posts/2025-04-01-End-to-End API Testing.md"></zero-md>  
+
+            </div>
+        </article>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="dark-mode-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>  
+
+    <!-- Render the markdown file -->  
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="../js/marked.min.js"></script>
+    <script src="../js/main.js"></script>
+    
+</body>
+</html>
