@@ -9,15 +9,28 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+    
+  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    zero-md {
+      display: block;
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+    }
+  </style>
 </head>
+
 <body>
     <!-- Header -->
     <header>
         <div class="container header-container">
-            <a href="/index.html" class="logo"><img src="images/LOGO.png" alt="" width="200px" height="20px"></a>
+            <a href="/index.html" class="logo"><img src="/images/LOGO.png" alt="" width="200px" height="20px"></a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="../index.html">Home</a></li>
@@ -48,7 +61,10 @@
             <div class="blog-post-content" id="post-content">
                 
                 <div class="loading">Loading post...</div>
-    <zero-md src="posts/2025-04-04 -Why Your API Might Be Slowing Down the Frontend (and How to Fix It).md"></zero-md>  
+                <zero-md src="../../posts/post2/2025-04-04-api-performance.md"></zero-md>
+
+
+
 
             </div>
         </article>
@@ -64,7 +80,6 @@
     <button class="dark-mode-toggle" id="dark-mode-toggle">
         <i class="fas fa-moon"></i>
     </button>
-    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>  
 
     <!-- Render the markdown file -->  
     <!-- Scripts -->
