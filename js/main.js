@@ -8,8 +8,8 @@ const blogPosts = [
         author: "Kate Ratemo",
         readTime: "5 min read",
         tags: ["API Development", "Software Testing", "Intermediate "],
-        image: "/posts/post1/what-is-end-to-end-testing.webp",
-        markdownFile: "/posts/post1/2025-04-01-End-to-End API Testing.md"
+        image: "posts/post1/what-is-end-to-end-testing.webp",
+        markdownFile: "posts/post1/2025-04-01-End-to-End API Testing.md"
     },
     {
         id: 'post2',
@@ -19,8 +19,8 @@ const blogPosts = [
         author: "Kate Ratemo",
         readTime: "8 min read",
         tags: ["Backend Optimization", "Frontend Performance", "API Best Practices "],
-        image: "/posts/post2/API-Integration.png",
-        markdownFile: "/posts/post2/2025-04-04 -Why Your API Might Be Slowing Down the Frontend (and How to Fix It).md"
+        image: "posts/post2/API-Integration.png",
+        markdownFile: "posts/post2/2025-04-04 -Why Your API Might Be Slowing Down the Frontend (and How to Fix It).md"
     }
 ];
 // Portfolio items
