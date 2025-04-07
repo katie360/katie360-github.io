@@ -12,7 +12,7 @@ const blogPosts = [
         markdownFile: "/katie360-github.io/posts/post1/2025-04-01-End-to-End-API.md"
     },
     {
-        id: 'post2',
+        id: 'Why-Your-API-Might-Be-Slowing-Down-the-Frontend',
         title: "Why Your API Might Be Slowing Down the Frontend (and How to Fix It)",
         excerpt: "This post covers best practices for creating efficient APIs that improve collaboration and user experience.",
         date: "April 04, 2025",
@@ -20,7 +20,7 @@ const blogPosts = [
         readTime: "8 min read",
         tags: ["Backend Optimization", "Frontend Performance", "API Best Practices "],
         image: "posts/post2/API-Integration.png",
-        markdownFile: "/katie360-github.io/posts/post2/2025-04-04-api-performance.md"
+        markdownFile: "../../posts/post2/2025-04-04-api-performance.md"
     }
 ];
 // Portfolio items
