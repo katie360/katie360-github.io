@@ -20,7 +20,7 @@ const blogPosts = [
         readTime: "8 min read",
         tags: ["Backend Optimization", "Frontend Performance", "API Best Practices "],
         image: "posts/post2/API-Integration.png",
-        markdownFile: "../../posts/post2/2025-04-04-api-performance.md"
+        markdownFile: "/katie360-github.io/posts/post2/2025-04-04-api-performance.md"
     }
 ];
 // Portfolio items
