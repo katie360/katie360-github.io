@@ -22,6 +22,18 @@ const blogPosts = [
         image: "posts/post2/API-Integration.png",
         markdownFile: "/katie360-github.io/posts/post2/2025-04-04-api-performance.md"
     }
+    ,
+    {
+        id: 'Understanding-Capital-Markets-A-Focus-on-Options',
+        title: "Understanding Capital Markets - A Focus on Options",
+        excerpt: "In this post, we zoom in on derivatives, especially options—what they are, how they work, and their role in managing risk or boosting returns. But first, let’s break down the landscape of capital markets to understand where options fit in",
+        date: "April 15, 2025",
+        author: "Kate Ratemo",
+        readTime: "5 min read",
+        tags: ["FinancialLiteracy", "CapitalMarkets", "OptionsTrading "],
+        image: "posts/post2/API-Integration.png",
+        markdownFile: "/katie360-github.io/posts/post3/Understanding Capital Markets - A Focus on Options.md"
+    }
 ];
 // Portfolio items
 const portfolioItems = [
