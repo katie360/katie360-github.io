@@ -31,7 +31,7 @@ const blogPosts = [
         author: "Kate Ratemo",
         readTime: "5 min read",
         tags: ["FinancialLiteracy", "CapitalMarkets", "OptionsTrading "],
-        image: "posts/post2/API-Integration.png",
+        image: "posts/post3/Literacy.webp",
         markdownFile: "/katie360-github.io/posts/post3/Understanding Capital Markets - A Focus on Options.md"
     }
 ];
